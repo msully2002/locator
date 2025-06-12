@@ -5,12 +5,6 @@
 }
 
 
-* {
-    outline: 1px solid rgba(255,0,0,0.2); /* visualize all elements */
-}
-
-
-
 .font-weight-800 {
     font-weight: 800;
 }
@@ -20,7 +14,6 @@ body {
     --loc-blue: #3A55B2;
     --loc-green: #008a00;
     --loc-light-grey: #f2f2f2;
-     overflow-x: hidden;
 }
 
 .navbar {
@@ -79,4 +72,10 @@ body {
 .eyebrow {
     color: var(--loc-green) !important;
     text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+    #storepoint-widget {
+        padding-bottom: 120px; /* or more depending on overlapping content */
+    }
 }
