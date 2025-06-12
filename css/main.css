@@ -4,6 +4,13 @@
     font-family: Barlow, sans-serif;
 }
 
+
+#storepoint-widget {
+    min-height: 100vh;
+    padding-bottom: 100px; /* Adjust to your needs */
+    box-sizing: border-box;
+}
+
 .font-weight-800 {
     font-weight: 800;
 }
