@@ -5,11 +5,11 @@
 }
 
 
-#storepoint-widget {
-    min-height: 100vh;
-    padding-bottom: 100px; /* Adjust to your needs */
-    box-sizing: border-box;
+* {
+    outline: 1px solid rgba(255,0,0,0.2); /* visualize all elements */
 }
+
+
 
 .font-weight-800 {
     font-weight: 800;
@@ -20,6 +20,7 @@ body {
     --loc-blue: #3A55B2;
     --loc-green: #008a00;
     --loc-light-grey: #f2f2f2;
+     overflow-x: hidden;
 }
 
 .navbar {
