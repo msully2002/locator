@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.barlow {
+    font-family: Barlow, sans-serif;
+}
+
+.font-weight-800 {
+    font-weight: 800;
+
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    --loc-blue: #3A55B2;
+    --loc-green: #008a00;
+    --loc-light-grey: #f2f2f2;
+}
+
+.navbar {
+    height: 124px;
+}
+
+
+.navbar-nav .nav-link {
+    margin-right: 1rem;
+}
+
+.auth-buttons .btn {
+    margin-left: 0.5rem;
+}
+
+.navbar .dropdown-menu {
+    min-width: 10rem;
+}
+
+/* Center navbar content vertically */
+.navbar .container-fluid {
+    align-items: center;
+    height: 100%;
+}
+
+.logo-img {
+    width: 100%;
+    height: auto;
+}
+
+.mg-btn-outline {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
+    text-align: center;
+    background-color: #fff;
+    border-color: #000;
+    border-radius: 2rem;
+    padding: .75rem 3rem !important;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    text-decoration: none !important;
+    transition: background-color .2s ease-in !important;
+}
+
+.mg-btn-outline:hover {
+    color: #000;
+    background-color: #f2f2f2;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.eyebrow {
+    color: var(--loc-green) !important;
+    text-transform: uppercase;
+}
